@@ -3,7 +3,7 @@
    "webSite": "",
    "logoUrl": "",
 
-   "dataUrl": "data/VercelliBook.xml",
+   "dataUrl": "./app/data/VercelliBook.xml",
    "sourcesUrl"       : "",
    "analoguesUrl"     : "",
    "sourcesTextsUrl" : "",
