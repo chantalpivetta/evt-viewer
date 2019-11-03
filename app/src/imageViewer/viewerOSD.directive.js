@@ -1,5 +1,7 @@
 "use strict";
 
+var OpenSeadragon = require('openseadragon');
+
    var module = angular.module("evtviewer.openseadragon", ["evtviewer.imageViewer",'evtviewer.openseadragonService', "evtviewer.interface"]);
   
 
