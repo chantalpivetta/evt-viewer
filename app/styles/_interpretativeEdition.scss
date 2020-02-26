@@ -85,7 +85,6 @@
 
 
   .choice {
-
     .corr,
     .orig {
       font-size: 85%;
@@ -157,10 +156,6 @@
       }
     }
 
-    .sic {
-      color: #934d4d;
-    }
-
     .sup {
       line-height: 20px;
       vertical-align: 20%;
@@ -222,8 +217,8 @@
       .sic {
         text-decoration: underline;
       }
-    }
-  }
+   }
+}
 
   //TODO: reorder
   .attachment {
