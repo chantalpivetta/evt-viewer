@@ -33,36 +33,10 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 * MI SPOSTO NELLA CARTELLA IN CUI HO CLONATO IL REPO
 | $ cd evt-viewer
 
-* NPM
-| $ npm install [ci saranno dei messaggi WARN => ignorarli]
-| $ npm install bower
-
-* BOWER 
-| $ bower install [scegliere versione più recente di angular consigliata per evt-viewer]
-
-* START GRUNT DEV
-| $ grunt dev [se evt-viewer non è visualizzato correttamente nel branch master => passare al branch develop ]
-
-* PASSO AL BRANCH DEVELOP 
-| $ git checkout develop
-
-* PULL DA REPO
-| $ git pull
-
-* START GRUNT DEV
-| $ grunt dev
-
-
-
-* SE CI FOSSERO ERRORI DI COMPILAZIONE DEL CSS
-| $ sudo gem install rubygems-update
-| $ sudo update_rubygems
-|
-| $ sudo apt-get install ruby-dev
-| $ sudo gem install compass susy
-
-* SE CI FOSSERO ERRORI DI VISUALIZZAZIONE
-| $ grunt dev --force
+| $ git checkout wip/moving-to-webpack
+| $ npm i
+| $ npm run bower-install
+| $ npm run start
 
 * *********************** *
 
@@ -97,29 +71,10 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 * MI SPOSTO NELLA CARTELLA IN CUI HO CLONATO IL REPO
 | $ cd evt-viewer
 
-* NPM
-| $ npm install [ci saranno dei messaggi WARN => ignorarli]
-| $ npm install bower
-
-* BOWER 
-| $ bower install [scegliere versione più recente di angular consigliata per evt-viewer]
-
-* START GRUNT DEV
-| $ grunt dev [se evt-viewer non è visualizzato correttamente nel branch master => passare al branch develop ]
-
-* PASSO AL BRANCH DEVELOP 
-| $ git checkout develop
-
-* PULL DA REPO
-| $ git pull
-
-* START GRUNT DEV
-| $ grunt dev
-
-
-
-* SE CI FOSSERO ERRORI DI VISUALIZZAZIONE
-| $ grunt dev --force
+| $ git checkout wip/moving-to-webpack
+| $ npm i
+| $ npm run bower-install
+| $ npm run start
 
 * *********************** *
 
@@ -154,32 +109,9 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 * MI SPOSTO NELLA CARTELLA IN CUI HO CLONATO IL REPO
 | $ cd evt-viewer
 
-* NPM
-| $ npm install [ci saranno dei messaggi di WARN => ignorarli]
-| $ npm install bower
-
-* BOWER 
-| $ bower install [scegliere versione più recente di angular consigliata per evt-viewer]
-
-* START GRUNT DEV
-| $ grunt dev [se evt-viewer è visualizzato correttamente nel branch master => passare al branch critica-edition ]
-
-* PASSO AL BRANCH DEVELOP 
-| $ git checkout develop
-
-* PULL PER AGGIORNARE IL REPOSITORY
-| $ git pull
-
-* START GRUNT DEV
-| $ grunt dev
-
-
-* SE CI FOSSERO ERRORI DI VISUALIZZAZIONE
-| $ grunt dev --force
+| $ git checkout wip/moving-to-webpack
+| $ npm i
+| $ npm run bower-install
+| $ npm run start
 
 * *********************** *
-
-Ogni volta che viene installato un pacchetto nuovo, è necessario:
-– interrompere il flusso grunt dev, 
-– lanciare nuovamente bower install
-– rilanciare grunt dev
