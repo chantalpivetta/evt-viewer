@@ -33,9 +33,13 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 * MI SPOSTO NELLA CARTELLA IN CUI HO CLONATO IL REPO
 | $ cd evt-viewer
 
-| $ git checkout wip/moving-to-webpack
+* SE NECESSARIO MI SPOSTO NEL BRANCH DEVELOP [o in quello della feature a cui voglio lavorare]
+| $ git checkout develop
+
 | $ npm i
+
 | $ npm run bower-install
+
 | $ npm run start
 
 * *********************** *
@@ -71,9 +75,13 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 * MI SPOSTO NELLA CARTELLA IN CUI HO CLONATO IL REPO
 | $ cd evt-viewer
 
-| $ git checkout wip/moving-to-webpack
+* SE NECESSARIO MI SPOSTO NEL BRANCH DEVELOP [o in quello della feature a cui voglio lavorare]
+| $ git checkout develop
+
 | $ npm i
+
 | $ npm run bower-install
+
 | $ npm run start
 
 * *********************** *
@@ -109,9 +117,13 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 * MI SPOSTO NELLA CARTELLA IN CUI HO CLONATO IL REPO
 | $ cd evt-viewer
 
-| $ git checkout wip/moving-to-webpack
+* SE NECESSARIO MI SPOSTO NEL BRANCH DEVELOP [o in quello della feature a cui voglio lavorare]
+| $ git checkout develop
+
 | $ npm i
+
 | $ npm run bower-install
+
 | $ npm run start
 
 * *********************** *
